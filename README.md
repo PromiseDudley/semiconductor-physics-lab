@@ -26,11 +26,25 @@ This project was completed as part of an experimental physics laboratory and foc
 
 ## Experimental Setup
 
-Photos and details of the experimental setup will be added here.
+A semiconductor transistor was measured under controlled temperature conditions to study how its electrical behavior changed with temperature. Laboratory instrumentation was used to control the circuit and collect measurements for later analysis in Python.
+
+![Experimental Setup](experimental_setup_overview.png)
+
+![Top View of Experimental Setup](experimental_setup_topview.png)
 
 ## Results
 
-Plots and key experimental results will be added here.
+### Temperature Dependence
+
+Measurements were collected across multiple temperatures to characterize the temperature dependent behavior of the semiconductor.
+
+![Temperature Dependence](Temperature_dependence.png)
+
+### Exponential Region Analysis
+
+Collector current data were transformed using ln(Ic) and linear fits were applied within the exponential region to analyze the relationship between collector current and base emitter voltage at different temperatures.
+
+![Exponential Region Fits](Exponential_region_fits.png)
 
 ## Repository Structure
 
